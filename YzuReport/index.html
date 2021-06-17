@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #FF9797; /* Black Gray */
+    color: 	#842B00;
+  }
+  .bg-5 { 
+    background-color: 	#ACD6FF; /* Black Gray */
+    color: #707038;
+  }
+  .bg-6 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#Profile">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#department">部門簡介</a></li>
+        <li><a href="#pd">專案介紹</a></li>
+        <li><a href="#pm">專案內容</a></li>
+        <li><a href="#about">心得感想</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin" id="Profile">個人簡介</h3>
+  <img src="https://i.imgur.com/UIDbRID.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>陳品翰</h3>
+  <h3>元智大學資管系</h3>
+  <h3>學號 1071667</h3>
+  <h3>實習公司 遠傳電信</h3>
+  <h3>實習部門 資訊安全管理部門(Information Security Management)</h3>
+  <h3>成本中心 資訊安全間系統架構處(Information Security & Infrastructure)</h3>
+  <img src="https://www.tpark.com.tw/attachments/34bf817a-e094-4ae8-b4f6-6f67d420dc85/TPKC-SCHEME-C-1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin" id="department">部門簡介</h3>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPKa-Y6tppJCLt-gQlr4J0lC-RmIT6m15AuA&usqp=CAU" class="img-responsive margin" style="display:inline" alt="Image">
+  <p>以偵測，預測，分析，防堵，漏洞掃描，系統安全分析並建議等業務為主 </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin" id="pd">專案介紹</h3><br>
+  <div class="row">
+  	<div class="col-sm-4">
+     <p>使用Raspberry Pi微電腦安裝Linux系統並設定相關服務，例如ntp校正時間，固定ip位置，網段部屬等等</p>
+  	</div>
+  	<div class="col-sm-4">
+      <p>透過網路上的開源專案，建設相關服務誘捕駭客攻擊，收集攻擊手段與異常連線與相關應用的觸發條件</p>
+  	</div>
+  	<div class="col-sm-4">
+     <p>傳送，備份，分析日誌，達到紀錄，監控，及時偵測等效果</p>
+  	</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://ae01.alicdn.com/kf/He9bd8103bc4e48119caf62a4fdada98eJ/Raspberry-Pi-4-Touch-Screen-3-5-inch-Display-480-320-TFT-LCD-Monitor-with-Acrylic.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://www.drupal.org/files/styles/grid-3-2x/public/images/Honey-Pot.png?itok=7nvaFIq9" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      
+      <img src="https://www.twcert.org.tw/Public/Images/201904/73219040222457909e.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-5" id="pm">
+<div class="jumbotron">
+  <h1>專案內容</h1>      
+  <p>透過架設誘捕系統在內部網路監測可疑連線</p>
+</div>
+<div class="container">
+  <h2><span class="label label-default">1.硬體設定</span>      </h2>
+  <h2><span class="label label-default">2.系統測試</span>      </h2>     
+  <h2><span class="label label-default">3.套件挑選</span>      </h2>
+  <h2><span class="label label-default">4.套件修復</span>      </h2>
+  <h2><span class="label label-default">5.套件測試</span>      </h2>
+  <h2><span class="label label-default">6.紀錄安裝過程，並撰寫成冊</span></h2>
+  <h2><span class="label label-default">7.攻擊測試</span>      </h2>
+  <h2><span class="label label-default">8.日誌備份</span>      </h2>
+  <h2><span class="label label-default">9.日誌分析</span>      </h2>
+</div>
+</div>
+
+
+<!-- Fourth Container -->
+
+<div class="jumbotron text-center" id="aobut">
+  <h1><span class="label label-default">心得感想</span></h1>
+  <p></p> 
+</div>
+  
+<div class="container container-fluid bg-4">
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>公司的環境</h3>
+      <p>遠傳資訊部是一個非常大的部門，分工非常細密，每個環節都有專人在作業；因此，若在某個環節有疑問，可以以最快的速度釐清問題並提出解決方案，提升工作效率。</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>專案管理</h3>
+      <p>在公司執行專案與在學校執行專案的效率與過程其實有些差異，例如在專案的制定的過程中，必須先制定某些大方向，再依序執行，細節性的問題需尋找專業的同仁釐清並提出解決方案，在彙報進度時再交由主管進行各個方向的評估專案相關細節是否要做修正。</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>提問方式</h3>        
+      <p>雖然遠傳的分工非常細密，但每個人都非常忙碌；如何在簡短的時間陳述問題的主幹並讓對方了解，在聆聽解答方面，除了非常專注聆聽，若有不懂的名詞，需在解答後再去進行了解。</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>公司的管理制度</h3>        
+      <p>在專案執行的過程中，免不了會需要公司的一些資源，例如伺服器、資料庫等等，由於分工細密，在帳號的權限方面，每件需求都與主管彙報，並讓主管了解權限的用途才能開啟並使用。</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-6 text-center">
+  <p></p> 
+</footer>
+
+</body>
+</html>
